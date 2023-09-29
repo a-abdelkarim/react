@@ -1,8 +1,11 @@
-function Welcome(props)
+function Welcome({name, age})
 {
-    console.log(props);
+    console.log(name, age);
     return(
-        <h1>Hello, {props.name}</h1>
+        <>
+            <h1>Hello, {name}</h1>
+            <h4>Your age is, {age}</h4>
+        </>
     )
 }
 
