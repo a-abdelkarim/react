@@ -1,18 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-function formatName(userObject) {
-    return `${userObject.firstName} ${userObject.lastName}`
-}
+import Welcome from './components/Welcome';
 
 function App() {
-    const user = {
-        firstName: "Ahmed",
-        lastName: "Abdelkarim",
-    }
     return (
         <div className="App">
-        <h1>Hello {formatName(user)}</h1>
+            <Welcome name="Ahmed" />
         </div>
     );
 }
