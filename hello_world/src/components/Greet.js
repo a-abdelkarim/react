@@ -6,7 +6,7 @@ export default class Greet extends React.Component
     {
         return (
             <>
-                <h1>Greetings, </h1>
+                <h1>Greetings, {this.props.name}</h1>
             </>
         )
     }
