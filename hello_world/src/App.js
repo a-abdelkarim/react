@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './components/Welcome';
 import Greet from './components/Greet';
+import Products from './components/Products';
 
 function App() {
     return (
         <div className="App">
-            <Welcome name="Ahmed" age="24" />
-            <Greet name="Ibrahim" />
+            <Products />
         </div>
     );
 }
